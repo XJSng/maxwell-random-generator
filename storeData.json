@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Ah Gong Minced Pork Noodle",
+    "storeNumber": "#01-02",
+    "carbType": "noodles",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "No",
+    "budget": "5"
+  },
+  {
+    "name": "75 Peanuts Soup",
+    "storeNumber": "#01-57",
+    "menuItems": {
+      "1": "Peanut soup",
+      "2": "Green bean soup",
+      "3": "Red bean soup"
+    },
+    "carbType": "",
+    "drinks": "No",
+    "dessert": "Yes",
+    "halal": "No",
+    "budget": ["5", "10"]
+  },
+  {
+    "name": "Aftertaste Traditional Tutu Cake",
+    "storeNumber": "#01-73",
+    "carbType": "",
+    "drinks": "No",
+    "dessert": "Yes",
+    "halal": "No",
+    "budget": ["5", "10"]
+  },
+  {
+    "name": "Ah Bui Lok Lok",
+    "storeNumber": "#01-25",
+    "carbType": "",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "No",
+    "budget": ["5", "10", "15"]
+  },
+
+  {
+    "name": "Ah Tai Hainanese Chicken Rice",
+    "storeNumber": "#01-07",
+    "carbType": "rice",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "No",
+    "budget": "5"
+  },
+
+  {
+    "name": "Ah Zhong Roasted Delights",
+    "storeNumber": "#01-93",
+    "carbType": "rice",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "No",
+    "budget": "5"
+  },
+  {
+    "name": "Aliff Rojak",
+    "storeNumber": "#01-101",
+    "carbType": "",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "Yes",
+    "budget": "5"
+  },
+  {
+    "name": "Alimama Green Chili Chicken Rice & Prawn Noodle",
+    "storeNumber": "#01-09",
+    "carbType": "",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "Yes",
+    "budget": "5"
+  },
+  {
+    "name": "Aspirasi Chicken Rice",
+    "storeNumber": "#01-63",
+    "carbType": "rice",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "Yes",
+    "budget": "5"
+  },
+  {
+    "name": "Authentic Hong Kong Delights",
+    "storeNumber": "#01-36",
+    "carbType": "sugar",
+    "drinks": "No",
+    "dessert": "Yes",
+    "halal": "No",
+    "budget": "5"
+  },
+  {
+    "name": "Avoca Brooo",
+    "storeNumber": "#01-83",
+    "carbType": "sugar",
+    "drinks": "Yes",
+    "dessert": "Yes",
+    "halal": "",
+    "budget": "5"
+  },
+  {
+    "name": "Baguette HƯƠNG VIỆT",
+    "storeNumber": "#01-42",
+    "carbType": "",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "No",
+    "budget": ["5", "10"]
+  },
+  {
+    "name": "BBraise",
+    "storeNumber": "#01-43",
+    "carbType": "rice",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "No",
+    "budget": ["5", "10"]
+  },
+  {
+    "name": "Chee Cheong Fun Club",
+    "storeNumber": "#01-38",
+    "carbType": "",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "No",
+    "budget": ["5", "10"]
+  },
+  {
+    "name": "China Street Fritters",
+    "storeNumber": "#01-64",
+    "carbType": "rice",
+    "drinks": "No",
+    "dessert": "No",
+    "halal": "No",
+    "budget": ["5", "10"]
+  },
+  {
+    "name": "Coco Shake Bay",
+    "storeNumber": "#01-33",
+    "carbType": "sugar",
+    "drinks": "Yes",
+    "dessert": "Yes",
+    "halal": "No",
+    "budget": ["5", "10"]
+  }
+]

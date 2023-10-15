@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maxwell Food Centre Store Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Maxwell Food Centre Store Filter</h1>
+    </header>
+    <main>
+      <!-- filter feature removed
+      <div class="filter-container">  
+        <label for="store-filter">Filter Stores:</label>
+        <input type="text" id="store-filter" placeholder="Enter store name" />
+      </div>
+    -->
+      <div class="filter-requirements">
+        <h1>Do you have any special requirements?</h1>
+        <div class="filter-options">
+          <label for="budget-filter">Budget:</label>
+          <select id="budget-filter">
+            <option value="">Any</option>
+            <option value="5">Less than $5</option>
+            <option value="10">$10</option>
+            <option value="15">More than $15</option>
+          </select>
+          <label for="halal-filter">Halal:</label>
+          <select id="halal-filter">
+            <option value="">Any</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+          <label for="drinks-filter">Drinks:</label>
+          <select id="drinks-filter">
+            <option value="">Any</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+          <label for="dessert-filter">Dessert:</label>
+          <select id="dessert-filter">
+            <option value="">Any</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="generate-button-container">
+        <h1>Click on this button for a food recommendation</h1>
+        <button id="generate-food-button">Random Food Generator</button>
+      </div>
+
+      <ul id="store-list">
+        <!-- Store list items will be added here dynamically -->
+      </ul>
+
+      <div id="review-feature">
+        <h2>Support your favourite store by writing a review</h2>
+        <!-- Add a review section for each store -->
+        <div class="store-details">
+          <h2>Store Name</h2>
+          <!-- Display other store details -->
+          <div class="review-section">
+            <h3>Reviews</h3>
+            <ul id="reviews-list">
+              <!-- Display existing reviews for this store -->
+            </ul>
+            <form id="add-review-form">
+              <input
+                type="text"
+                id="review-author"
+                placeholder="Your Name"
+                required
+              />
+              <textarea
+                id="review-text"
+                placeholder="Write your review"
+                required
+              ></textarea>
+              <button type="submit">Submit Review</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container general-information">
+        <h2>General information about Maxwell Food Centre</h2>
+        <p>
+          Maxwell Food Centre is located at
+          <a href="https://maps.app.goo.gl/gpBf1oPy9YbVHar19" target="_blank"
+            >1 Kadayanallur St, Singapore 069184</a
+          >. <br />You can find out more about Maxwell
+          <a
+            target="_blank"
+            href="https://www.roots.gov.sg/en/stories-landing/stories/Hawker-Centres/Maxwell-Road-Food-Centre"
+            >here</a
+          >.
+        </p>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

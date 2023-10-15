@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: D3D0CB;
+}
+
+header {
+  background-color: #499f68;
+  color: DFE0E2;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.general-information {
+  background-color: #499f68;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li { /* Each New li element styling*/
+  padding: 15px;
+  margin: 10px 0;
+  border: solid 1px black;
+  background-color: #f5ea71;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%; 
+}
+
+#store-list {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.filter-requirements {
+  background-color: rgba(191, 217, 201, 0.5);
+  border-radius: 5px;
+}
+.filter-requirements h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#store-filter {
+  display: block;
+  width: 96%;
+  margin: 0px 10px;
+}
+
+.filter-options label {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.filter-options select {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.generate-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#generate-food-button {
+  background-color: #157a6e;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: larger;
+  font-weight: bold;
+  box-shadow: none;
+}
+
